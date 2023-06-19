@@ -74,7 +74,7 @@ form.addEventListener('submit', function (event) {
             });
         })
         .catch(error => {
-            console.error('Помилка:', error);
+            alert('Помилка');
         });
 });
 
