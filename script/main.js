@@ -74,7 +74,7 @@ form.addEventListener('submit', function (event) {
             });
         })
         .catch(error => {
-            alert('Помилка');
+            alert('Помилка, спробуйте ще раз');
         });
 });
 
@@ -123,7 +123,7 @@ function likeTrack(trackId) {
                 });
             })
             .catch(error => {
-                console.error('Помилка:', error);
+                alert('Помилка, спробуйте ще раз');
             });
     }
 }
